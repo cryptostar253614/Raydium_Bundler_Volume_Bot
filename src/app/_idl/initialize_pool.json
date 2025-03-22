@@ -1,0 +1,352 @@
+{
+  "version": "0.1.0",
+  "name": "initialize_pool_amm",
+  "instructions": [
+    {
+      "name": "initialize",
+      "accounts": [
+        {
+          "name": "ammProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "amm",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "ammOpenOrders",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammLpMint",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammCoinMint",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "ammPcMint",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "ammCoinVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammPcVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammTargetOrders",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammConfig",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "createFeeDestination",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "market",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "userWallet",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "userTokenCoin",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "userTokenPc",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "userTokenLp",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "splToken",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "splAssociatedTokenAccount",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "rent",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "nonce",
+          "type": "u8"
+        },
+        {
+          "name": "openTime",
+          "type": "u64"
+        },
+        {
+          "name": "initPcAmount",
+          "type": "u64"
+        },
+        {
+          "name": "initCoinAmount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "swapbasein",
+      "accounts": [
+        {
+          "name": "ammProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "ammPool",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "ammOpenOrders",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammCoinVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammPcVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "market",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketBids",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketAsks",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketEventQueue",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketCoinVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketPcVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketVaultSigner",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "userTokenSource",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "userTokenDestination",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "userSourceOwner",
+          "isMut": false,
+          "isSigner": true
+        },
+        {
+          "name": "splToken",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amountIn",
+          "type": "u64"
+        },
+        {
+          "name": "minimumAmountOut",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "swapbaseout",
+      "accounts": [
+        {
+          "name": "ammProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "ammPool",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "ammOpenOrders",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammCoinVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "ammPcVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "market",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketBids",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketAsks",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketEventQueue",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketCoinVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketPcVault",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "marketVaultSigner",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "userTokenSource",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "userTokenDestination",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "userSourceOwner",
+          "isMut": false,
+          "isSigner": true
+        },
+        {
+          "name": "splToken",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "maxAmountIn",
+          "type": "u64"
+        },
+        {
+          "name": "amountOut",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "address": "DdHFxFR8mR8yVWwYhK9PHPTHTBJf1xQHTRMhEXGoJC1f"
+  }
+}

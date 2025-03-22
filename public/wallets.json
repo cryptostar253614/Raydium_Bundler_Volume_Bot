@@ -1,0 +1,34 @@
+{
+  "walletsForBundling": [
+    "EV3XN7sm339gEaosQBS9ksPkz4yaw23uUTJMC8jRvrGxYdHuD94RDKn3vqshZQSdBg6QWhUF7gkBnyh8gV2KqmN",
+    "5QvoFXVyJ6E1vrcaYRSSccK3TuKqHQ3J2WYo2JmtUzdxiFrGtSsnoo7ieMSnLPNQmSXBLdXDkxKHpx4ftjgTduqz",
+    "58BzprdMt5MATiWeaGCGoDHcSQodoBKXcnzojKaTyMwG4DuKX9szhrxcQDTVKkZ5nyVfJtNcKEwevyzfWm8La5zs"
+  ],
+  "walletsForAll": [
+    "EV3XN7sm339gEaosQBS9ksPkz4yaw23uUTJMC8jRvrGxYdHuD94RDKn3vqshZQSdBg6QWhUF7gkBnyh8gV2KqmN",
+    "5QvoFXVyJ6E1vrcaYRSSccK3TuKqHQ3J2WYo2JmtUzdxiFrGtSsnoo7ieMSnLPNQmSXBLdXDkxKHpx4ftjgTduqz",
+    "58BzprdMt5MATiWeaGCGoDHcSQodoBKXcnzojKaTyMwG4DuKX9szhrxcQDTVKkZ5nyVfJtNcKEwevyzfWm8La5zs",
+    "4iuekngf6dZhL4w8p2KTuPEjPE7j34AfSVTW7tg17MRJECvrtdbGDRKnFKtWrYRWTobxNRsEUtKfGBo9ApRoPRsc",
+    "3F4jtiESi8MjvMUjJuw8rxMxaDuCZQp4qDJXUBX97zQADwipL3i4c96gHLWj378W6BwW26EsgA4yXAXLaGRMLwCQ",
+    "3nGYGLx4F6WfyTXsjazz2US44FQvte5e64KHxY7CN1bwpS5GuB42yZZXns14CMtnY5H8hNB8wLdikRRWedqBAq1S",
+    "q844WXRWqxZdA8XqSq73DnBW4QNfw8QyauSM2g9yMP8W7EHyNdDbHTZeNGEkLu1wbQwz4XdMHBqqnbBmZpuMbpV",
+    "FYpU8KiFaVFXyzm64VLty5mfScUyamTUYhX7Ws3MpcyPnVTB9SaFLyLpJfwRnc98Dhw7dckPtyXLNX3hvBNvgbu",
+    "fhQA1mUSrdS4unU5qtXDupw4SYzxb5xe5wWZUTXA5YkxHacCtbdczrzSjh7REsrNHirs8NmouBWcgqq6fTcVQN4",
+    "2fh1SDLkQnXfXEZUzpJBTkLvkpi7RCh51cPhSC2w2iMts9rKmyyaaEAA5ZRbpBdFsqGBsSFJKLigeJWRo6R8as3u"
+  ],
+  "walletsForRemaining": [
+    "4iuekngf6dZhL4w8p2KTuPEjPE7j34AfSVTW7tg17MRJECvrtdbGDRKnFKtWrYRWTobxNRsEUtKfGBo9ApRoPRsc",
+    "3F4jtiESi8MjvMUjJuw8rxMxaDuCZQp4qDJXUBX97zQADwipL3i4c96gHLWj378W6BwW26EsgA4yXAXLaGRMLwCQ",
+    "3nGYGLx4F6WfyTXsjazz2US44FQvte5e64KHxY7CN1bwpS5GuB42yZZXns14CMtnY5H8hNB8wLdikRRWedqBAq1S",
+    "q844WXRWqxZdA8XqSq73DnBW4QNfw8QyauSM2g9yMP8W7EHyNdDbHTZeNGEkLu1wbQwz4XdMHBqqnbBmZpuMbpV",
+    "FYpU8KiFaVFXyzm64VLty5mfScUyamTUYhX7Ws3MpcyPnVTB9SaFLyLpJfwRnc98Dhw7dckPtyXLNX3hvBNvgbu",
+    "fhQA1mUSrdS4unU5qtXDupw4SYzxb5xe5wWZUTXA5YkxHacCtbdczrzSjh7REsrNHirs8NmouBWcgqq6fTcVQN4",
+    "2fh1SDLkQnXfXEZUzpJBTkLvkpi7RCh51cPhSC2w2iMts9rKmyyaaEAA5ZRbpBdFsqGBsSFJKLigeJWRo6R8as3u"
+  ],
+  "vaults": {
+    "token0Vault": "DTNsQzwQn8Tjk6hUp4dsNCcqmky3Q8S13zNUSmq3KQ4D",
+    "token1Vault": "4FTbBuiS8LLAzW6EzswyW9yBJp94isQYwTAeWJXb2epR"
+  },
+  "mintAddress": "E9KRHFNr1QcRWKq34XDxPhJZ3qyK7wjTQwn9vf3qLoMQ",
+  "marketId": "7Ka9asBYbHj1eG72LJRdLxW5hHRQy3zhCBNZM4mFwTT"
+}
