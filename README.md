@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/6e86ee84-5b23-40be-98ff-1999bf636b67
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/cryptostar253614/Solana_Raydium_Bundler_Bot.git
-cd Solana_Raydium_Bundler_Bot
+git clone https://github.com/cryptostar253614/Solana_Raydium_Pumpfun_Bundler_Volume_Bot.git
+cd Solana_Raydium_Pumpfun_Bundler_Volume_Bot
 ```
 ### Contact Address: [@cryptomonster0977](https://t.me/cryptomonster0977)
