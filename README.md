@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Solana Bundler Bot
+
+# Solana Raydium, Pump fun Bundler Volume Bot
 
 ## Overview
 Solana Bundler Bot is an advanced automation tool designed to facilitate token creation, liquidity management, automated trading, and market-making strategies on the Solana blockchain. It integrates with Raydium DEX and includes features for sniping, anti-MEV protection, and multi-wallet distribution.
